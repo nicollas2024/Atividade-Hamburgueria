@@ -1,0 +1,11 @@
+body {
+    background-image: url(Hamburgueriafundo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header {
+    background-color:black 
+}
+html {
+    scroll-behavior: smooth;
+}
