@@ -9,3 +9,14 @@ header {
 html {
     scroll-behavior: smooth;
 }
+.botao-verde {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
