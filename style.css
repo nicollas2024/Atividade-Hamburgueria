@@ -2,12 +2,14 @@ body {
     background-image: url(https://raw.githubusercontent.com/nicollas2024/Atividade-Hamburgueria/main/Hamburgueriafundo.jpg);
     background-repeat: no-repeat;
     min-height: 100vh;
+    margin 0;
 }
 header {
     background-color: rgba(0, 0, 0, 0.8)
     font-weight: bold;
     width: 100%;
-    height: auto;
+    height: 400px;
+    position: relative
 }
 html {
     scroll-behavior: smooth;
