@@ -6,40 +6,16 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.85); /* Preto levemente transparente para um visual melhor */
-    color: #ffffff; /* Torna o título H1 branco */
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #ffffff; 
     font-weight: bold;
     width: 100%;
-    height: auto; /* Ajustado para não cortar o conteúdo em telas menores */
-    padding: 20px 0;
+    height: auto;
     text-align: center;
 }
-
-/* Estilização para os links do menu de navegação ficarem visíveis */
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: #ffca28; /* Cor amarela/ouro que combina com hamburgueria */
-    text-decoration: none;
-    font-size: 18px;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -56,6 +32,3 @@ html {
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
-
-.botao-verde:hover {
-    background-color: #218838
