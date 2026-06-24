@@ -2,12 +2,14 @@ body {
     background-image: url(Hamburgueriafundo.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 header {
     background-color:black;
     font-weight: bold;
     width: 100%;
-    height: 400px
+    height: 400px;
 }
 html {
     scroll-behavior: smooth;
